@@ -18,13 +18,5 @@ exports.ox_target:addGlobalPlayer({
             end
         end
     },
-    {
-        name = 'porter',
-        icon = 'fa-solid fa-user',
-        label = 'Porter',
-        onSelect = function(data)
-            ExecuteCommand('porter')
-        end
-    },
 })
 
